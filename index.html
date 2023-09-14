@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+  </head>
+
+  <body>
+    <h1>Formulaire</h1>
+    <form action=""></form>
+    <form action="">
+      <!-- <fieldset> -->
+        <!-- regrouper les elements -->
+        <legend>Connexion</legend>
+        <div>
+          <label for="name">Nom :</label>
+          <input type="text" name="name" id="name" placeholder="Votre nom" />
+          <label for="civility">Homme :</label>
+          <input type="checkbox" name="civilite" id="civility" />
+          <label for="">Femme :</label>
+          <input type="checkbox" name="civilite" id="" />
+        </div>
+        <div>
+          <label for="">Masculin :</label>
+          <input type="radio" name="civilite" id="" value="masculin" />
+          <label for="">Féminin :</label>
+          <input type="radio" name="civilite" id="" value="feminin" checked />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" pattern="" />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div>
+          <label for="pircture">Votre photo</label>
+          <input
+            type="file"
+            name="pircture"
+            id=""
+            accept="image/png, image/jpg"
+          />
+        </div>
+        <div>
+          <label for="country">Nationalité</label>
+          <select name="pays" id="country">
+            <option value="allemagne">Allemagne</option>
+            <option value="rdc" selected>RDC</option>
+            <option value="gabon">Gabon</option>
+          </select>
+        </div>
+        <div>
+          <div>
+            <label for="bio">Description</label>
+          </div>
+          <textarea
+            name="bio"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Votre biographie"
+          ></textarea>
+        </div>
+        <div>
+          <input type="submit" name="" id="submit" value="Se connecter" />
+          <input type="reset" name="" id="reset" />
+        </div>
+      <!-- </fieldset> -->
+      <video src=""></video>
+      <p title="eee">llooor</p>
+    </form>
+  </body>
+</html>
